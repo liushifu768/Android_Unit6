@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:id="@+id/edit"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"		
+		android:text="用户名："
+		android:textSize="20dip">
+	</TextView>
+	<EditText 
+	    android:id="@+id/entry" 
+		android:layout_height="wrap_content" 
+		android:layout_width="match_parent" >
+	</EditText>
+    <Button android:id="@+id/btn_ok" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:padding="10dip" 
+		android:text="接受">
+	</Button>
+    <Button android:id="@+id/btn_cancel" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:padding="10dip" 
+		android:text="撤消">
+	</Button>
+
+</LinearLayout>
